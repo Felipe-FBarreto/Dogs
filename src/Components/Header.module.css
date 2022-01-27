@@ -3,9 +3,10 @@
   position: fixed;
   width: 100%;
   z-index: 100;
-  background-color: #fff;
-  top: 0;
+  background: white;
+  top: 0px;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -16,6 +17,7 @@
 .logo {
   padding: 0.5rem 0;
 }
+
 .login {
   color: #333;
   display: flex;
@@ -25,10 +27,10 @@
 .login::after {
   content: '';
   display: inline-block;
-  height: 17px;
   width: 14px;
-  background: url(../Assets/usuario.svg) no-repeat center center;
+  height: 17px;
+  background: url('../Assets/usuario.svg') no-repeat center center;
   margin-left: 0.5rem;
   position: relative;
-  top: -2px;
+  top: -1px;
 }
